@@ -20,6 +20,7 @@ app.get('/osho',(req,res)=>{
   });
 });
 
-app.listen(3000,(err)=>{
+const port = process.env.PORT || 3000;
+app.listen(port,(err)=>{
   if(!err) console.log("starting server at port 3000.....");
 });

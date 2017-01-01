@@ -4,7 +4,8 @@
   "description": "practice",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "test": "echo \"error: no test script\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Sratna",
   "license": "ISC",
