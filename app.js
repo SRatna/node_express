@@ -5,9 +5,7 @@ var app = express();
 hbs.registerPartials(__dirname+'/views/partials');
 app.set('view engine','hbs');
 
-app.use((req,res,next)=>{
-  res.render('maintenance');
-});
+
 
 app.get('/',(req,res)=>{
   res.send("hahago");
